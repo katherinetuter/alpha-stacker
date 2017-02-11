@@ -9,7 +9,7 @@ function stackLetter() {
 		}
 	for (var l = 0; l < alphabet.length; l++) {
 	 	row += alphabet[l]; //add to row from array to split
-		if (l % 3 == 0 && l != 0) {	//split by 3
+		if (l % 3 == 0) {	//split by 3
 		row += " "; //add empty space after each 3
 		}
 	console.log(row); //finished product
